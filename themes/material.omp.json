@@ -7,7 +7,7 @@
         {
           "foreground": "#ffffff",
           "style": "plain",
-          "template": "<#C591E8>\u276f</><#69FF94>\u276f</>",
+          "template": "<#C591E8>%</>",
           "type": "text"
         },
         {
@@ -34,15 +34,6 @@
           "style": "plain",
           "template": " \uf119",
           "type": "status"
-        },
-        {
-          "foreground": "#66F68F",
-          "properties": {
-            "time_format": "15:04"
-          },
-          "style": "plain",
-          "template": " {{ .CurrentDate | date .Format }} ",
-          "type": "time"
         }
       ],
       "type": "prompt"
@@ -50,3 +41,4 @@
   ],
   "version": 3
 }
+
